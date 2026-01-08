@@ -1,8 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
-import { Testimonial } from '../types';
 
-const testimonials: Testimonial[] = [
+const testimonials = [
   {
     id: 1,
     content: "NexusAI has completely transformed how we handle our backend operations. We've seen a 40% increase in productivity across our dev team.",
@@ -26,7 +24,7 @@ const testimonials: Testimonial[] = [
   }
 ];
 
-const TestimonialSlider: React.FC = () => {
+const TestimonialSlider = () => {
   const [active, setActive] = useState(0);
 
   useEffect(() => {
