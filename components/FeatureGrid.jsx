@@ -1,8 +1,6 @@
-
 import React from 'react';
-import { Feature } from '../types';
 
-const features: Feature[] = [
+const features = [
   {
     id: 'f1',
     title: 'Advanced Analytics',
@@ -65,7 +63,7 @@ const features: Feature[] = [
   },
 ];
 
-const FeatureGrid: React.FC = () => {
+const FeatureGrid = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       {features.map((feature) => (
