@@ -1,8 +1,6 @@
-
 import React from 'react';
-import { PricingPlan } from '../types';
 
-const plans: PricingPlan[] = [
+const plans = [
   {
     name: 'Starter',
     price: '$0',
@@ -27,7 +25,7 @@ const plans: PricingPlan[] = [
   },
 ];
 
-const PricingTable: React.FC = () => {
+const PricingTable = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
       {plans.map((plan) => (
