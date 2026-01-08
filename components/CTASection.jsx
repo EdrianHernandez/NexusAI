@@ -1,7 +1,6 @@
-
 import React from 'react';
 
-const CTASection: React.FC = () => {
+const CTASection = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="cta-container relative overflow-hidden rounded-[3rem] px-8 py-20 md:px-16 md:py-24 text-center">
