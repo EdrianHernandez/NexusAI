@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import FeatureGrid from './components/FeatureGrid';
@@ -7,7 +6,7 @@ import TestimonialSlider from './components/TestimonialSlider';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="min-h-screen flex flex-col selection:bg-indigo-100 selection:text-indigo-700">
       <Navbar />
