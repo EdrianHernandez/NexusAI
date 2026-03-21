@@ -1,0 +1,122 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "file_path": "components/Navbar.jsx",
+        "image_anchor": "NexusAI_bug-1.png",
+        "text_anchors": [
+            "The navigation bar is stuck behind the page content when I scroll.",
+            "The navbar's stacking order is incorrect and allows page elements to overlap it.",
+            "I cannot access the navigation menu because content scrolls in front of it."
+        ],
+        "positive_node": "<nav className=\"fixed w-full z-0 bg-white/80 backdrop-blur-md border-b border-gray-100\">",
+        "playwright_selector": "nav"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "file_path": "components/FeatureGrid.jsx",
+        "image_anchor": "NexusAI_bug-2.png",
+        "text_anchors": [
+            "The feature cards are stacking vertically instead of showing side by side.",
+            "The flexbox configuration breaks the intended two-column layout on medium screens.",
+            "The features take up too much vertical space, forcing excessive scrolling to see all items."
+        ],
+        "positive_node": "<div className=\"grid grid-cols-1 md:flex md:flex-col lg:grid-cols-3 gap-10\">",
+        "playwright_selector": "div[className*='grid'][className*='gap-10']"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "file_path": "App.jsx",
+        "image_anchor": "NexusAI_bug-3.png",
+        "text_anchors": [
+            "The main title is really hard to read.",
+            "The heading text lacks sufficient contrast against the white background.",
+            "I cannot read the main headline because the text is too light."
+        ],
+        "positive_node": "<h1 className=\"text-5xl md:text-7xl font-extrabold text-slate-200 tracking-tight mb-6\">",
+        "playwright_selector": "h1[className*='text-slate-200']"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "file_path": "components/PricingTable.jsx",
+        "image_anchor": "NexusAI_bug-4.png",
+        "text_anchors": [
+            "The pricing cards look stretched and misaligned.",
+            "Excessive padding inside the pricing cards breaks the overall layout.",
+            "The pricing information is spaced out too much and looks broken."
+        ],
+        "positive_node": "<div key={plan.name} className={`pricing-card relative flex flex-col p-32 rounded-3xl border ${",
+        "playwright_selector": "div[className*='pricing-card'][className*='p-32']"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "file_path": "components/CTASection.jsx",
+        "image_anchor": "NexusAI_bug-5.png",
+        "text_anchors": [
+            "The call-to-action section disappeared from the page.",
+            "The CTA container is rendered completely transparent with zero opacity.",
+            "I cannot see or interact with the primary call-to-action, making it impossible to sign up or start a trial."
+        ],
+        "positive_node": "<div className=\"cta-container relative overflow-hidden rounded-[3rem] px-8 py-20 md:px-16 md:py-24 text-center opacity-0\">",
+        "playwright_selector": "div[className*='cta-container'][className*='opacity-0']"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "file_path": "components/Footer.jsx",
+        "image_anchor": "NexusAI_bug-6.png",
+        "text_anchors": [
+            "The footer is glued to the bottom of my screen and covers content.",
+            "The footer has absolute positioning that overlaps the main content area.",
+            "I cannot scroll to the bottom of the page because the footer is always blocking content."
+        ],
+        "positive_node": "<footer className=\"bg-slate-900 text-slate-300 pt-20 pb-10 fixed bottom-0 w-full z-40\">",
+        "playwright_selector": "footer[className*='fixed'][className*='bottom-0']"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "file_path": "components/FeatureGrid.jsx",
+        "image_anchor": "NexusAI_bug-7.png",
+        "text_anchors": [
+            "The feature icons look off-center and misaligned.",
+            "The icon alignment is positioned at the bottom instead of the center of the container.",
+            "The feature icons look poorly aligned compared to the text, creating a visually broken appearance."
+        ],
+        "positive_node": "<div className=\"w-12 h-12 bg-indigo-50 rounded-xl flex items-end justify-center mb-6\">",
+        "playwright_selector": "div[className*='w-12'][className*='h-12'][className*='items-end']"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "file_path": "components/TestimonialSlider.jsx",
+        "image_anchor": "NexusAI_bug-8.png",
+        "text_anchors": [
+            "The testimonial quotes are tiny and impossible to read.",
+            "The text sizing is set to extra small, conflicting with the intended responsive sizes.",
+            "I cannot read the customer testimonials because the text is too small."
+        ],
+        "positive_node": "<p className=\"text-2xl md:text-3xl font-medium text-slate-800 leading-snug text-xs\">",
+        "playwright_selector": "p[className*='text-2xl'][className*='text-xs']"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "file_path": "components/Navbar.jsx",
+        "image_anchor": "NexusAI_bug-9.png",
+        "text_anchors": [
+            "The mobile menu looks really weird with tons of empty space.",
+            "The bottom padding on the mobile menu is excessively large, creating huge whitespace.",
+            "The mobile menu stretches the page vertically and pushes everything down when opened."
+        ],
+        "positive_node": "<div className=\"md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-96 space-y-2\">",
+        "playwright_selector": "div[className*='md:hidden'][className*='pb-96']"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "file_path": "components/PricingTable.jsx",
+        "image_anchor": "NexusAI_bug-10.png",
+        "text_anchors": [
+            "The pricing buttons are floating in weird places on the cards.",
+            "The buttons are positioned absolutely at the top of the cards instead of at the bottom.",
+            "The buttons are out of reach and overlap important pricing information."
+        ],
+        "positive_node": "<button className={`w-full py-4 rounded-xl font-bold transition-all absolute top-20 ${",
+        "playwright_selector": "button[className*='absolute'][className*='top-20']"
+    }
+]
