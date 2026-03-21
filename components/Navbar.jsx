@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+    <nav className="fixed w-full z-0 bg-white/80 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
@@ -40,7 +40,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-6 space-y-2">
+        <div className="md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-96 space-y-2">
           <a href="#features" className="block py-2 text-slate-600 font-medium">Features</a>
           <a href="#testimonials" className="block py-2 text-slate-600 font-medium">Testimonials</a>
           <a href="#pricing" className="block py-2 text-slate-600 font-medium">Pricing</a>

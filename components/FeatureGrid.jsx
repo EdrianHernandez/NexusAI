@@ -65,10 +65,10 @@ const features = [
 
 const FeatureGrid = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div className="grid grid-cols-1 md:flex md:flex-col lg:grid-cols-3 gap-10">
       {features.map((feature) => (
         <div key={feature.id} className="feature-item p-8 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md">
-          <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center mb-6">
+          <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-end justify-center mb-6">
             {feature.icon}
           </div>
           <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>

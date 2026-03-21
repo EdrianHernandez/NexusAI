@@ -15,7 +15,7 @@ const App = () => {
         {/* Hero Section */}
         <section className="pt-32 pb-20 bg-white border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 tracking-tight mb-6">
+            <h1 className="text-5xl md:text-7xl font-extrabold text-slate-200 tracking-tight mb-6">
               Empower your team with <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">
                 Nexus Intelligence
