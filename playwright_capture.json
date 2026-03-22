@@ -105,8 +105,8 @@
             "The mobile menu stretches the page vertically and pushes everything down when opened."
         ],
         "positive_node": "<div className=\"md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-96 space-y-2\">",
-        "playwright_selector": "div.space-y-2",
-        "action_selector": "button.p-2",
+        "playwright_selector": "div[class*='pb-96']",
+        "action_selector": "nav button:has(svg)",
         "viewport": { "width": 400, "height": 800 }
     },
     {
