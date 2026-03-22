@@ -106,7 +106,8 @@
         ],
         "positive_node": "<div className=\"md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-96 space-y-2\">",
         "playwright_selector": "div.space-y-2",
-        "action_selector": "nav button svg"
+        "action_selector": "nav button",
+        "viewport": { "width": 400, "height": 800 }
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
