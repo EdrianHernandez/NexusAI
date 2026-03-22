@@ -21,7 +21,7 @@
             "The features take up too much vertical space, forcing excessive scrolling to see all items."
         ],
         "positive_node": "<div className=\"grid grid-cols-1 md:flex md:flex-col lg:grid-cols-3 gap-10\">",
-        "playwright_selector": "div[className*='grid'][className*='gap-10']"
+        "playwright_selector": "div[class*='grid'][class*='gap-10']"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
@@ -33,7 +33,7 @@
             "I cannot read the main headline because the text is too light."
         ],
         "positive_node": "<h1 className=\"text-5xl md:text-7xl font-extrabold text-slate-200 tracking-tight mb-6\">",
-        "playwright_selector": "h1[className*='text-slate-200']"
+        "playwright_selector": "h1[class*='text-slate-200']"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
@@ -45,7 +45,7 @@
             "The pricing information is spaced out too much and looks broken."
         ],
         "positive_node": "<div key={plan.name} className={`pricing-card relative flex flex-col p-32 rounded-3xl border ${",
-        "playwright_selector": "div[className*='pricing-card'][className*='p-32']"
+        "playwright_selector": "div[class*='pricing-card']"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
@@ -57,7 +57,7 @@
             "I cannot see or interact with the primary call-to-action, making it impossible to sign up or start a trial."
         ],
         "positive_node": "<div className=\"cta-container relative overflow-hidden rounded-[3rem] px-8 py-20 md:px-16 md:py-24 text-center opacity-0\">",
-        "playwright_selector": "div[className*='cta-container'][className*='opacity-0']"
+        "playwright_selector": "div[class*='cta-container']"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
@@ -69,7 +69,7 @@
             "I cannot scroll to the bottom of the page because the footer is always blocking content."
         ],
         "positive_node": "<footer className=\"bg-slate-900 text-slate-300 pt-20 pb-10 fixed bottom-0 w-full z-40\">",
-        "playwright_selector": "footer[className*='fixed'][className*='bottom-0']"
+        "playwright_selector": "footer[class*='fixed']"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
@@ -81,7 +81,7 @@
             "The feature icons look poorly aligned compared to the text, creating a visually broken appearance."
         ],
         "positive_node": "<div className=\"w-12 h-12 bg-indigo-50 rounded-xl flex items-end justify-center mb-6\">",
-        "playwright_selector": "div[className*='w-12'][className*='h-12'][className*='items-end']"
+        "playwright_selector": "div[class*='items-end'][class*='justify-center']"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
@@ -93,7 +93,7 @@
             "I cannot read the customer testimonials because the text is too small."
         ],
         "positive_node": "<p className=\"text-2xl md:text-3xl font-medium text-slate-800 leading-snug text-xs\">",
-        "playwright_selector": "p[className*='text-2xl'][className*='text-xs']"
+        "playwright_selector": "p[class*='text-slate-800'][class*='text-xs']"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
@@ -105,7 +105,7 @@
             "The mobile menu stretches the page vertically and pushes everything down when opened."
         ],
         "positive_node": "<div className=\"md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-96 space-y-2\">",
-        "playwright_selector": "div[className*='md:hidden'][className*='pb-96']"
+        "playwright_selector": "div[class*='md:hidden'][class*='pb-96']"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
@@ -117,6 +117,6 @@
             "The buttons are out of reach and overlap important pricing information."
         ],
         "positive_node": "<button className={`w-full py-4 rounded-xl font-bold transition-all absolute top-20 ${",
-        "playwright_selector": "button[className*='absolute'][className*='top-20']"
+        "playwright_selector": "button[class*='absolute'][class*='top-20']"
     }
 ]
