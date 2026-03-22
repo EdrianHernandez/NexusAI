@@ -106,7 +106,7 @@
         ],
         "positive_node": "<div className=\"md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-96 space-y-2\">",
         "playwright_selector": "div.space-y-2",
-        "action_selector": "div[class*='md:hidden'] button",
+        "action_selector": "button.p-2",
         "viewport": { "width": 400, "height": 800 }
     },
     {
