@@ -1,69 +1,69 @@
 [
     {
-        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI",
         "image_anchor": "NexusAI_bug-1.png",
         "file_path": "components/Navbar.jsx",
         "text_anchor": "The navbar's stacking order is incorrect and allows page elements to overlap it.",
         "positive_node": "<nav className=\"fixed w-full z-0 bg-white/80 backdrop-blur-md border-b border-gray-100\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI",
         "image_anchor": "NexusAI_bug-2.png",
         "file_path": "components/FeatureGrid.jsx",
         "text_anchor": "The flexbox configuration breaks the intended two-column layout on medium screens.",
         "positive_node": "<div className=\"grid grid-cols-1 md:flex md:flex-col lg:grid-cols-3 gap-10\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI",
         "image_anchor": "NexusAI_bug-3.png",
         "file_path": "App.jsx",
         "text_anchor": "The heading text lacks sufficient contrast against the white background.",
         "positive_node": "<h1 className=\"text-5xl md:text-7xl font-extrabold text-slate-200 tracking-tight mb-6\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI",
         "image_anchor": "NexusAI_bug-4.png",
         "file_path": "components/PricingTable.jsx",
         "text_anchor": "Excessive padding inside the pricing cards breaks the overall layout.",
         "positive_node": "<div key={plan.name} className={`pricing-card relative flex flex-col p-32 rounded-3xl border ${"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI",
         "image_anchor": "NexusAI_bug-5.png",
         "file_path": "components/CTASection.jsx",
         "text_anchor": "The CTA container is rendered completely transparent with zero opacity.",
         "positive_node": "<div className=\"cta-container relative overflow-hidden rounded-[3rem] px-8 py-20 md:px-16 md:py-24 text-center opacity-0\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI",
         "image_anchor": "NexusAI_bug-6.png",
         "file_path": "components/Footer.jsx",
         "text_anchor": "The footer has absolute positioning that overlaps the main content area.",
         "positive_node": "<footer className=\"bg-slate-900 text-slate-300 pt-20 pb-10 fixed bottom-0 w-full z-40\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI",
         "image_anchor": "NexusAI_bug-7.png",
         "file_path": "components/FeatureGrid.jsx",
         "text_anchor": "The icon alignment is positioned at the bottom instead of the center of the container.",
         "positive_node": "<div className=\"w-12 h-12 bg-indigo-50 rounded-xl flex items-end justify-center mb-6\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI",
         "image_anchor": "NexusAI_bug-8.png",
         "file_path": "components/TestimonialSlider.jsx",
         "text_anchor": "The text sizing is set to extra small, conflicting with the intended responsive sizes.",
         "positive_node": "<p className=\"text-2xl md:text-3xl font-medium text-slate-800 leading-snug text-xs\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI",
         "image_anchor": "NexusAI_bug-9.png",
         "file_path": "components/Navbar.jsx",
         "text_anchor": "The bottom padding on the mobile menu is excessively large, creating huge whitespace.",
         "positive_node": "<div className=\"md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-96 space-y-2\">"
     },
     {
-        "github_repo": "https://github.com/EdrianHernandez/NexusAI.git",
+        "github_repo": "https://github.com/EdrianHernandez/NexusAI",
         "image_anchor": "NexusAI_bug-10.png",
         "file_path": "components/PricingTable.jsx",
         "text_anchor": "The buttons are positioned absolutely at the top of the cards instead of at the bottom.",
