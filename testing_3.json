@@ -25,7 +25,7 @@
         "image_anchor": "NexusAI_bug-4.png",
         "file_path": "components/PricingTable.jsx",
         "text_anchor": "The pricing information is spaced out too much and looks broken.",
-        "positive_node": "<div key={plan.name} className={`pricing-card relative flex flex-col p-32 rounded-3xl border ${"
+        "positive_node": "<div key={plan.name} className={`pricing-card relative flex flex-col p-32 rounded-3xl border ${plan.isPopular ? 'bg-white border-indigo-200 shadow-xl ring-2 ring-indigo-500' : 'bg-white border-gray-100 shadow-sm'}`}>"
     },
     {
         "github_repo": "https://github.com/EdrianHernandez/NexusAI",
@@ -67,6 +67,6 @@
         "image_anchor": "NexusAI_bug-10.png",
         "file_path": "components/PricingTable.jsx",
         "text_anchor": "The buttons are out of reach and overlap important pricing information.",
-        "positive_node": "<button className={`w-full py-4 rounded-xl font-bold transition-all absolute top-20 ${"
+        "positive_node": "<button className={`w-full py-4 rounded-xl font-bold transition-all absolute top-20 ${plan.isPopular ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200' : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100'}`}>"
     }
 ]
