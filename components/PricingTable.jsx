@@ -64,7 +64,13 @@ const PricingTable = () => {
             ))}
           </ul>
 
-          <button className={`w-full py-4 rounded-xl font-bold transition-all absolute top-20 ${plan.isPopular ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200' : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100'}`}>
+          <button 
+            className={`w-full py-4 rounded-xl font-bold transition-all ${
+              plan.isPopular 
+                ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-lg shadow-indigo-200' 
+                : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100'
+            }`}
+          >
             {plan.buttonText}
           </button>
         </div>
